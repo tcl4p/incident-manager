@@ -1,0 +1,20 @@
+2025-12-21T02:07:02+00:00 auth_access hit
+2025-12-21T02:07:03+00:00 redirect invalid
+2025-12-21T02:07:09+00:00 auth_access hit
+2025-12-21T02:07:10+00:00 redirect incidents
+2025-12-21T02:07:19+00:00 auth_access hit
+2025-12-21T02:07:20+00:00 redirect incidents
+2025-12-21T02:07:31+00:00 auth_access hit
+2025-12-21T02:07:32+00:00 redirect invalid
+2025-12-21 02:13:07 | HIT auth_access.php (method=POST)
+2025-12-21 02:13:07 | CODE len=8
+2025-12-21 02:13:08 | NO MATCH -> redirect invalid
+2025-12-21 02:13:13 | HIT auth_access.php (method=POST)
+2025-12-21 02:13:13 | CODE len=8
+2025-12-21 02:13:14 | MATCH dept_id=3 -> redirect incidents.php
+2025-12-21 02:13:21 | HIT auth_access.php (method=POST)
+2025-12-21 02:13:22 | CODE len=6
+2025-12-21 02:13:22 | MATCH dept_id=1 -> redirect incidents.php
+2025-12-21 02:14:19 | HIT auth_access.php (method=POST)
+2025-12-21 02:14:19 | CODE len=8
+2025-12-21 02:14:20 | MATCH dept_id=3 -> redirect incidents.php
